@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 100vh;
+}
+
+section[id]{
+    scroll-margin-top: 100px;
+}
+
+section#hero{
+    background-color: #c5d5cb;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#hero img{
+    border-radius:20px ;
+    width: 15%
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    min-width: 250px;
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    min-width: 250px;
+}
+
+section#projects h2{
+    font-size: 2rem;
+    text-align: center;
+    min-width: 250px;
+    background-color: #b3a787;
+}
+
+p{
+    font-size: 1.5rem;
+    text-align:justify;
+    margin: 15;
+}
+
+h3{
+    font-size: 2rem;
+    text-align: center;
+    background-color: #b3a787
+    
+}
+
+.project-detail a{
+    font-size: 1.5rem;
+    margin: 15;
+    text-decoration-line:underline;
+    color: #000000;
+}
+
+a{
+    font-size: 1.5rem;
+    margin: 15;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #dfd9cb;
+
+}
+
+.project-detail{
+    border: 5px solid #b3a787;
+    background-color:  #fff;
+    border-radius: 15px;
+    width: 550px;
+    margin: 20px;
+
+}
+
+.project-detail img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    background-color: #b3a787
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #000000;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+section#div{
+    background-color: #1199a9;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.izquierda{
+    width: 50%;
+    min-width: 115px;
+    line-height: 50px;
+}
+
+.derecha{
+    background: url(./images/tipos-conocimiento-social.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+.izquierda h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.izquierda p{
+    font-size: 1.5rem;
+    line-height: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+#div{
+    display: flex;
+}
+.creative{
+    color: #fff;
+    text-align: center;
+}
+
+.link{
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+.derecha{
+display:none;
+}
+}
